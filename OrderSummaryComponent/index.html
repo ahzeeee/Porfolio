@@ -18,41 +18,50 @@
 
   <div class="position-absolute top-50 start-50 translate-middle">
 
-    <div class="card" style="max-width: 450px;">
-      <img class="card-img-top img-fluid rounded-start" src="./images/illustration-hero.svg" alt="Card image cap" />
+    <div class="card border-0 text-center rounded-5" style="max-width: 450px;">
+      <img class="card-img-top img-fluid rounded-top" src="./images/illustration-hero.svg" alt="Card image cap"/>
 
       <div class="card-body">
-        <h5 class="card-title">Order Summary</h5>
-        <p class="card-text">You can now listen to millions of songs, audiobooks, and podcasts on any 
+        <h5 class="card-title" style="padding-bottom: 17px;">Order Summary</h5>
+        <p class="card-text" style="padding-bottom: 20px;">You can now listen to millions of songs, audiobooks, and podcasts on any 
           device anywhere you like!
         </p>
 
-        <div class="card">
+        <div class="card border-0 mx-auto" id="miniCard">
           <div class="row">
-            <div class="col-md">
-              <img src="./images/icon-music.svg" class="img-fluid" />
+            <div class="col-md-3">
+              <img src="./images/icon-music.svg" class="img-fluid " />
             </div>
 
-            <div class="col-md">
-              Annual Plan
-              $59.99/year
+            <div class="col-md-6">
+              <div class="row">
+                <card-title id="miniCardTitle">Annual Plan</card-title>
+              </div>
+              
+              <div class="row" id="miniCardText">
+                <card-text>$59.99/year</card-text>
+              </div>
+  
             </div>
 
-            <div class="col-md">
-              Change
+            <div class="col-md-3" id="miniCardChange">
+              <card-text>Change</card-text>
             </div>
           </div>
         </div>
-        <button class="btn btn-primary">
+
+
+        <button class="btn btn-primary" id="paymentButton">
           Proceed to Payment
         </button>
 
-        <div>
+        <div id="cancelText">
         Cancel Order
         </div>
       </div>
-    </div>
 
+    </div>
+    
   </div>
 
   
