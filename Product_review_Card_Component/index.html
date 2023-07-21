@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="'UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <title>
+            Product Preview Card Component
+        </title>
+
+          <!-- build:css css/main.css -->
+          <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+          <link rel="stylesheet" href="./css/styles.css"/>
+          <!-- endbuild -->
+          <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat">
+          <link rel="stylesheet" href="https://fonts.google.com/specimen/Fraunces">
+
+
+    </head>
+
+    <body>
+        <div class="position-absolute top-50 start-50 translate-middle">
+
+          <div class="card"  id="cardBoarder" >
+            <div class="row">
+
+              <div class="col-md">
+                <picture>
+                  <img src="./images/image-product-desktop.jpg" class="img-fluid d-none d-md-block rounded-start" alt="Gabrielle Essence Eau De Parfum">
+                  <img src="./images/image-product-mobile.jpg" class="img-fluid d-md-none rounded-top" alt="Gabrielle Essence Eau De Parfum">
+                </picture>
+              </div>
+
+              <div class="col-md">
+                <div class="card-body">
+                   
+                    <h6 style="padding-bottom: 20px;">PERFUME</h6>
+              
+                    <h5 class="card-title" style="padding-bottom: 24px;">Gabrielle Essence Eau De Parfum</h5>
+
+                    <p class="card-text" style="padding-bottom: 29px;">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+                      Perfumer-Creator for the House of CHANEL.
+                    </p>
+                    
+                  <div class="row" style="padding-bottom:30px;">
+                    <div class="col-6">
+                      <h5 style="color:#3D8168;">$149.99</h5> 
+                    </div> 
+                    <div class="col-4">
+                      <strike style="color: #6C7289;">$169.99</strike> 
+                    </div>
+                  </div>
+
+                  
+                  <button type="button" class="btn btn-green" data-toggle="button" aria-pressed="false" autocomplete="off">  
+                    <img 
+                      src="./images/icon-cart.svg" 
+                      style="
+                        justify-content: center; 
+                        gap: 11.615px;
+                        "/> 
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+    </body>
+
+</html>
+  

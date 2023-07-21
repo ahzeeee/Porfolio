@@ -1,0 +1,72 @@
+body {
+    font-family: 'Montserrat';
+    background-color: #F2EAE2;
+} 
+
+h5 {
+    color: var(--gunmetal, #1C232B);
+    font-family: Fraunces;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 236px;
+}
+
+h6 {
+    color: var(--aurometal-saurus, #6C7289);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5px;
+}
+
+p {
+    color: var(--aurometal-saurus, #6C7289);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px; /* 164.286% */
+    width: 237px;
+}
+
+#cardBoarder {
+    border-color: #F2EAE2;
+}
+
+button.btn-green {
+    width: 236px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border-color: transparent;
+    background: var(--deep-aquamarine, #3D8168);
+    color: var(--pure-white, #FFF);
+
+    /* Button Text */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+button.btn-green:hover {
+    border-radius: 8px;
+    background: var(--deep-aquamarine-hover, #1A4032);
+    width: 236px;
+    height: 48px;
+    flex-shrink: 0;
+
+     /* Button Text */
+     font-family: Montserrat;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     color: var(--pure-white, #FFF);
+} 
