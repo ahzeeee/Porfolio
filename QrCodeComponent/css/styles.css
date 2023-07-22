@@ -1,0 +1,36 @@
+body {
+    font-family: Outfit;
+    background: var(--light-grey, #D5E1EF);;
+}
+
+h5 {
+    color: var(--dark-navy, #1F314F);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Heading */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    color: var(--grey, #7D889E);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.188px;
+    width: 256px;
+}
+
+#cardStyle {
+    width: 320px;
+    height: 497px;
+    flex-shrink: 0;
+}
