@@ -33,4 +33,9 @@ p {
     width: 320px;
     height: 497px;
     flex-shrink: 0;
+    border-radius: 20px;
+}
+
+.card-img-top {
+    border-radius:8%;
 }
