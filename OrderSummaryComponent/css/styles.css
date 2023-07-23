@@ -11,25 +11,43 @@ h5 {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    text-align: center;
     }
 
-    p {
-        color: #717FA6;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 26px; /* 162.5% */
-    }
+p {
+    color: #717FA6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    text-align: center;
+}
+
+.card {
+    border-radius: 20px;
+    width: 450px;
+    height: 697px;
+}
 
 
-#miniCard {
+
+
+.card-img-top {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.container {
     width: 354px;
-    height: 98px;
-    flex-shrink: 0;
+    height: 98px; 
     border-radius: 11px;
     background: #F7F9FF;
-    
 }    
+
+/* #miniCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 #miniCardTitle {
     color: #1F2E55;

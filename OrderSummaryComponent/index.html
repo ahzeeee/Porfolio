@@ -18,44 +18,48 @@
 
   <div class="position-absolute top-50 start-50 translate-middle">
 
-    <div class="card border-0 text-center rounded-5" style="max-width: 450px;">
-      <img class="card-img-top img-fluid rounded-top" src="./images/illustration-hero.svg" alt="Music Order"/>
+    <div class="card border-0 text-center" style="max-width: 450px;">
+      <img class="card-img-top img-fluid" src="./images/illustration-hero.svg" alt="Music Order"/>
 
       <div class="card-body">
-        <h5 class="card-title" style="padding-bottom: 17px;">Order Summary</h5>
+        <h5 class="card-title" style="padding-bottom: 17px; margin-top:45px;">Order Summary</h5>
         <p class="card-text" style="padding-bottom: 20px;">You can now listen to millions of songs, audiobooks, and podcasts on any 
           device anywhere you like!
         </p>
 
-        <div class="card border-0 mx-auto" id="miniCard">
-          <div class="row">
-            <div class="col-md-3">
-              <img src="./images/icon-music.svg" class="img-fluid " />
-            </div>
-
-            <div class="col-md-6">
-              <div class="row">
-                <card-title id="miniCardTitle">Annual Plan</card-title>
+        <div class="container" id="miniCard">
+     
+            <div class="row" >
+              <div class="col-md-3">
+                <img src="./images/icon-music.svg" class="img-fluid" />
               </div>
-              
-              <div class="row" id="miniCardText">
-                <card-text>$59.99/year</card-text>
-              </div>
-  
-            </div>
 
-            <div class="col-md-3" id="miniCardChange">
-              <card-text>Change</card-text>
+              <div class="col-md-6">
+                
+                  <p id="miniCardTitle">Annual Plan</p>
+                  <!-- <p style="text-align: left;">$59.99/year</p> -->
+             
+                
+                <!-- <div class="row align-items-center" id="miniCardText">
+                  <p>$59.99/year</p>
+                </div> -->
+    
+              </div>
+
+              <div class="col-md-3" >
+                <p id="miniCardChange">Change</p>
+              </div>
             </div>
-          </div>
+         
         </div>
 
 
-        <button class="btn btn-primary" id="paymentButton">
+
+        <button class="btn btn-primary" id="paymentButton" style="margin-top: 32px;">
           Proceed to Payment
         </button>
 
-        <div id="cancelText">
+        <div id="cancelText" style="margin-top: 32px; margin-bottom:48px">
         Cancel Order
         </div>
       </div>
