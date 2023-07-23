@@ -23,13 +23,13 @@ I should be able to:
 
 ### Screenshot
 
-![](./Screenshot_Desktop.png)
-![](./Screenshot_Mobile.png)
-![](./Screenshot_Button_Active.png)
+![Desktop View](./Screenshot_Desktop.png)
+![Mobile View](./Screenshot_Mobile.png)
+![Active Button](./Screenshot_Button_Active.png)
 
 ### Links
 
-Will update later.
+- Live Site URL: (https://ahzeeee.github.io/Porfolio/ProductPreviewCardComponent/index.html)
 
 
 ### Built with
