@@ -2,16 +2,15 @@ body {
     color: #F2F2F2;
 }
 
-
 .card-group {
     width: 920px;
     height: 500px;
     flex-shrink: 0;
-    
 }
 
 .card {
     border-radius: 0%;
+    
 }
 
 .card-img-top {
