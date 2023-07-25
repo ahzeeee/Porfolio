@@ -16,64 +16,54 @@
 
 <body>
 
-  <div class="position-absolute top-50 start-50 translate-middle">
+  <div class="container" >
+    <div class="row">
+      <div class="col">
 
-    <div class="card border-0 text-center" style="max-width: 450px;">
-      <img class="card-img-top img-fluid" src="./images/illustration-hero.svg" alt="Music Order"/>
+        <div class="card border-0 text-center position-absolute top-50 start-50 translate-middle" id="mainContainer">
+          <img class="card-img-top img-fluid" src="./images/illustration-hero.svg" alt="Music Order"/>
 
-      <div class="card-body">
-        <h5 class="card-title" style="padding-bottom: 17px; margin-top:45px;">Order Summary</h5>
-        <p class="card-text" style="padding-bottom: 20px;">You can now listen to millions of songs, audiobooks, and podcasts on any 
-          device anywhere you like!
-        </p>
+          <div class="card-body">
+            <h5 class="card-title" style="margin: 20px 48px 17px 48px;">Order Summary</h5>
+            <p class="card-text" style="margin: 17px 48px 20px 48px;">You can now listen to millions of songs, audiobooks, and podcasts on any 
+              device anywhere you like!
+            </p>
 
-        <div class="container" id="miniCard">
-     
-            <div class="row" >
-              <div class="col-md-3">
-                <img src="./images/icon-music.svg" class="img-fluid" />
-              </div>
+            <div class="container d-flex align-content-center flex-wrap" id="miniCard">
+        
+                <div class="row" style="width: 354px;">
+                  <div class="col">
+                    <img src="./images/icon-music.svg" class="img-fluid" alt="Music Icon" id="musicIcon"/>
+                  </div>
 
-              <div class="col-md-6">
-                
-                  <p id="miniCardTitle">Annual Plan</p>
-                  <!-- <p style="text-align: left;">$59.99/year</p> -->
-             
-                
-                <!-- <div class="row align-items-center" id="miniCardText">
-                  <p>$59.99/year</p>
-                </div> -->
-    
-              </div>
+                  <div class="col-6">
+                      <p id="miniCardTitle">Annual Plan</p>
+                      <p class="text-muted" id="miniCardText">$59.99/year</p>
+                  </div>
 
-              <div class="col-md-3" >
-                <p id="miniCardChange">Change</p>
-              </div>
+                  <div class="col-3" style="margin-top:30px;">
+                      <a  href="#">Change</a>
+                  </div>
+                </div>
+            
             </div>
-         
+
+
+            <button type="button" class="btn btn-primary border-0" id="paymentButton" style="margin-top: 32px;">
+              Proceed to Payment
+            </button>
+
+            <div class="row" id="cancelText">
+              <a  href="#" >Cancel Order</a>
+            </div>
+          </div>
+
         </div>
 
-
-
-        <button class="btn btn-primary" id="paymentButton" style="margin-top: 32px;">
-          Proceed to Payment
-        </button>
-
-        <div id="cancelText" style="margin-top: 32px; margin-bottom:48px">
-        Cancel Order
-        </div>
-      </div>
-
+      </div> 
     </div>
     
   </div>
-
-  
-
-  
-
-  
-  
   
 </body>
 </html>
