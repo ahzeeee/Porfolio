@@ -14,31 +14,40 @@ h5 {
     text-align: center;
     }
 
+.card-title {
+    margin: 20px 48px 17px 48px;
+}
+
 .card-text {
     color: #717FA6;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 440;
     line-height: 26px; /* 162.5% */
     text-align: center;
+    margin: 17px 48px 20px 48px;
     
 }
 
 #mainContainer {
-    width: 450px;
-    height: 697px;
-    flex-shrink: 0;
+    max-width: 450px;
+    max-height: 697px;
+    /* flex-shrink: 0; */
+
 }
 
 .card {
     border-radius: 20px;
     box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
+    max-height: 697px;
+    max-width: 450px;
+    
 }
 
 .card-img-top {
     border-radius: 20px 20px 0px 0px;
-    width: 450px;
-    height: 220px;
+    width:100%;
+    height:auto;
 }
 
 #musicIcon {
@@ -67,7 +76,7 @@ h5 {
     color: #717FA6;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 449;
     text-align: left;
 }
 
@@ -116,7 +125,7 @@ button.btn-primary:hover {
     font-weight: 900;
     line-height: normal;
     margin-top: 32px; 
-    margin-bottom:48px;
+    margin-bottom:30px;
     text-decoration-line:none;
 }
 
