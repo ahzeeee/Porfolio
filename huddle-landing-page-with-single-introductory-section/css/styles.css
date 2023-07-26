@@ -1,0 +1,97 @@
+body {
+    background: url(../images/bg-desktop.svg) #684BB1;
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 150% */
+    margin-top: 23px;
+    margin-bottom: 24px;
+    width: 487px;
+}
+
+p {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    margin-bottom: 24px;
+    width: 520px;
+}
+
+i {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FFFFFF;
+}
+
+button.btn-register {
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #FFF;
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+    color: #684BB1;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+}
+
+button.btn-register:hover {
+    border-radius: 28px;
+    background: #E880E8;
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+    color: #FFF;
+}
+
+footer {
+    text-align: end;
+}
+
+i {
+    margin-right: 16px;
+    margin-top: 27px;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-device-width: 600px){
+    body {
+        background: url(../images/bg-mobile.svg) #684BB1;
+        background-repeat: no-repeat;
+    }
+
+    #illustration {
+        margin-left: 32px;;
+    
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        margin-right:30px;
+      
+    }
+
+    button.btn-register {
+        margin-left: 88px;
+        margin-bottom: 64px;
+    }
+}
