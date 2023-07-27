@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+
 body {
     background: url(../images/bg-desktop.svg) #684BB1;
     background-repeat: no-repeat;
     
+    
+}
+
+#logo {
+    width: 250px;
+    height: 40px; 
+    margin-top: 64px; 
+    margin-bottom: 104px;
 }
 
 h1 {
@@ -73,25 +84,52 @@ i {
     body {
         background: url(../images/bg-mobile.svg) #684BB1;
         background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    #contentRow {
+        text-align: center;
+    }
+
+    #logo {
+        margin-top: 28px; 
     }
 
     #illustration {
-        margin-left: 32px;;
+        text-align: center;
+        /* margin-left: 32px; */
+        max-width: 400px;
     
     }
 
     h1 {
-        text-align: center;
+        
+        max-width: 400px;
+        font-size: 30px;
     }
 
     p {
-        text-align: center;
-        margin-right:30px;
+        
+        max-width: 360px;
+        margin-bottom: 24px;
       
     }
 
     button.btn-register {
-        margin-left: 88px;
-        margin-bottom: 64px;
+        width: 200px;
+        height: 40px;
+        flex-shrink: 0;
+        color: #684BB1;
+    }
+
+    footer {
+        text-align: center;
+        margin-top:40px;
+        margin-bottom:40px;
+        
+    }
+
+    i {
+        margin-right: 15px;
     }
 }
