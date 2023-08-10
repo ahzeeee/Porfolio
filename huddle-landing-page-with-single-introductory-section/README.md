@@ -24,13 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./huddle_landing_page_screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/ahzeeee/Porfolio/tree/main/huddle-landing-page-with-single-introductory-section)
+- Live Site URL: (https://ahzeeee.github.io/Porfolio/huddle-landing-page-with-single-introductory-section/index.html)
 
 ## My process
 
@@ -41,15 +41,12 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
 
 
 
 ## Author
-
 - Zee Wang
 - Frontend Mentor - [@ahzeeee](https://www.frontendmentor.io/profile/ahzeeee)
 
