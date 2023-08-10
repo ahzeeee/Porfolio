@@ -38,12 +38,7 @@ p {
     width: 520px;
 }
 
-i {
-    width: 40px;
-    height: 40px;
-    flex-shrink: 0;
-    color: #FFFFFF;
-}
+
 
 button.btn-register {
     width: 200px;
@@ -69,18 +64,30 @@ button.btn-register:hover {
 }
 
 footer {
-    text-align: end;
+    text-align: right;
 }
 
-i {
-    margin-right: 16px;
-    margin-top: 27px;
+
+.btn-social-icon {
+    border-color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    color:#FFF;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+  
+}
+
+.btn-social-icon:hover {
+    color:#FF52C1;
+    border-color: #FF52C1;
 }
 
 
 /* Responsive */
 
-@media only screen and (max-device-width: 600px){
+@media only screen and (max-device-width: 480px){
     body {
         background: url(../images/bg-mobile.svg) #684BB1;
         background-repeat: no-repeat;
@@ -112,7 +119,7 @@ i {
         
         max-width: 360px;
         margin-bottom: 24px;
-      
+        text-align: center;
     }
 
     button.btn-register {
@@ -123,13 +130,10 @@ i {
     }
 
     footer {
+        margin-top: 30px;
+        margin-bottom: 30px;
         text-align: center;
-        margin-top:40px;
-        margin-bottom:40px;
-        
     }
 
-    i {
-        margin-right: 15px;
-    }
+
 }
