@@ -9,16 +9,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  
   
   <title>Intro Component with Sign Up Form</title>
 
 </head>
 <body>
-  <div class="container container-fluid position-absolute top-50 start-50 translate-middle">
+  <div class="container container-fluid mt-5">
 
     <div class="row">
-      <div class="col" id="leftSection">
+      <div class="col-md" id="leftSection">
         <h1>Learn to code by watching others</h1>
 
         <small>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
@@ -26,56 +27,111 @@
 
       </div>
 
-      <div class="col">
+      <div class="col-md">
 
-        <button class="btn btn-primary border-0">
-          Try it free 7 days 
-          <span style="
-            font-size: 15px;
-            font-style: normal;
-            font-weight: 400;
-          ">
-          then $20/mo. thereafter</span>
-        </button>
+        <div class="row align-items-center">
+          <div class="col">
+            <button class="btn btn-primary border-0">
+              Try it free 7 days 
+              <span style="
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+              ">
+              then $20/mo. thereafter</span>
+            </button>
+          </div>
+        </div>
 
-        <form class="align-items-center">
+                          
+        <form class="row requires-validation" novalidate>
 
-          <div class="form-group">
-            <label for="firstName"></label>
-            <input type="text" class="form-control" id="firstName" placeholder="First Name">
+          <div class="col form-group">
+
+     
+
+            <div class="form-group col-md-12">
+                <label for="firstName"></label>
+                <input class="form-control" type="text" name="name" placeholder="First Name" required>
+                <div class="invalid-feedback">First Name cannot be empty</div>
+            </div>
             
-          </div>
+            <div class="form-group col-md-12">
+                <label for="lastName"></label>
+                <input class="form-control" type="text" name="name" placeholder="Last Name" required>
+                <div class="invalid-feedback">Last Name cannot be empty</div>
+              </div>
+            
+            <div class="form-group col-md-12">
+              <label for="emailAddress"></label>
+              <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+              <div class="invalid-feedback" placeholder="email@example/com">Looks like this is not an email</div>
+            </div>
 
-          <div class="form-group">
-            <label for="lastName"></label>
-            <input type="text" class="form-control" id="lastName" placeholder="Last Name">
-          </div>
+            <div class="form-group col-md-12">
+              <label for="passwordInput"></label>
+              <input class="form-control" type="password" name="password" placeholder="Password" required>
+              <div class="invalid-feedback">Password cannot be empty</div>
+            </div>           
+              
+            <div>
+              <button type="submit" class="btn btn-success border-0">CLAIM YOUR FREE TRIAL</button>
+            </div>
 
-          <div class="form-group">
-            <label for="emailAddress"></label>
-            <input type="email" class="form-control" id="emailAddress" placeholder="Email Address">
-          </div>
-
-          <div class="form-group">
-            <label for="passwordInput"></label>
-            <input type="password" class="form-control" id="passwordInput" placeholder="Password">
-          </div>
-
-          <div>
-            <button type="submit" class="btn btn-success border-0">CLAIM YOUR FREE TRIAL</button>
+            <small class="form-text text-muted">By clicking the button, you are agreeing to our 
+              <span style="color: #FF7979; font-weight: 700;">Terms and Services</span>
+            </small>
+          
           </div>
           
-
-          <small class="form-text text-muted">By clicking the button, you are agreeing to our 
-            <span style="color: #FF7979; font-weight: 700;">Terms and Services</span>
-          </small>
         </form>
-        
-      </div>
-
+                      
     </div>
 
   </div>
+
+  <script src="./js/validation.js"></script>
+
+
+   <!-- <form class="row align-items-center requires-validation" id="claimForm" novalidate>
+          <div class="col form-group">
+
+            <div class="form-group">
+              <label for="firstName"></label>
+              <div class="has-validaton">
+                <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+                <div class="invalid-feecback">
+                  First Name cannot be empty
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="form-group">
+              <label for="lastName"></label>
+              <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+            </div>
+
+            <div class="form-group">
+              <label for="emailAddress"></label>
+              <input type="email" class="form-control" id="emailAddress" placeholder="Email Address">
+            </div>
+
+            <div class="form-group">
+              <label for="passwordInput"></label>
+              <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+            </div>
+
+            <div>
+              <button type="submit" class="btn btn-success border-0">CLAIM YOUR FREE TRIAL</button>
+            </div>
+            
+
+            <small class="form-text text-muted">By clicking the button, you are agreeing to our 
+              <span style="color: #FF7979; font-weight: 700;">Terms and Services</span>
+            </small>
+          </div>
+        </form> -->
 
 
 </body>

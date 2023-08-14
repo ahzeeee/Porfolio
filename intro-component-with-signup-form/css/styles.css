@@ -22,7 +22,7 @@ h1 {
 }
 
 .btn-primary {
-    width: 540px;
+    width: auto;
     height: 60px;
     flex-shrink: 0;
     border-radius: 10px;
@@ -41,17 +41,17 @@ h1 {
 
 
 form {
-    width: 540px;
-    height: 474px;
+    width: auto;
+    height: auto;
     flex-shrink: 0;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
-    padding:35px;
+    padding:0,35px,0,35px;
 }
 
 .btn-success {
-    width: 460px;
+    width: auto;
     height: 56px;
     flex-shrink: 0;
     border-radius: 5px;
@@ -73,4 +73,14 @@ form {
     font-size: 11px;
     font-weight: 500;
     line-height: 26px;
+}
+
+.invalid-feedback {
+    color: #FF7979;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
 }
