@@ -79,7 +79,7 @@ form {
     line-height: 26px;
 }
 
-.invalid-feedback {
+.errorMessage {
     color: #FF7979;
     text-align: right;
     font-family: Poppins;
@@ -87,6 +87,12 @@ form {
     font-style: italic;
     font-weight: 500;
     line-height: normal;
+}
+
+.invalid-feedback:focus {
+    border-radius: 5px;
+    border: 50px solid #95ba1c;
+    background: #FFF;
 }
 
 
@@ -97,6 +103,5 @@ form {
         left: 50%;
         transform: translate(-50%, -50%);
     }
-
 
 }

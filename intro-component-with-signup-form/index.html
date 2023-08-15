@@ -43,35 +43,35 @@
           </div>
         </div>
 
-        <form class="requires-validation" novalidate>
+        <form class="requires-validation" name="claimForm" id="claimForm" onsubmit="return(validateForm());" novalidate >
          
           <div class="col form-group">
             <div class="form-group col-md-12">
                 <label for="firstName"></label>
-                <input class="form-control" type="text" name="name" placeholder="First Name" required>
-                <div class="invalid-feedback">First Name cannot be empty</div>
+                <input class="form-control" id="firstName" type="text" name="firstName" placeholder="First Name" required>
+                <div class="errorMessage" name="firstNameError" id="firstNameError"></div>
             </div>
             
             <div class="form-group col-md-12">
                 <label for="lastName"></label>
-                <input class="form-control" type="text" name="name" placeholder="Last Name" required>
-                <div class="invalid-feedback">Last Name cannot be empty</div>
-              </div>
+                <input class="form-control" id="lastName" type="text" name="lastName" placeholder="Last Name" required>
+                <div class="errorMessage" name="lastNameError" id="lastNameError"></div>
+            </div>
             
             <div class="form-group col-md-12">
               <label for="emailAddress"></label>
-              <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
-              <div class="invalid-feedback" placeholder="email@example/com">Looks like this is not an email</div>
+              <input class="form-control" id="emailAddress" type="email" name="emailAddress" placeholder="E-mail Address" required>
+              <div class="errorMessage" name="emailError" id="emailError" ></div>
             </div>
 
             <div class="form-group col-md-12">
               <label for="passwordInput"></label>
-              <input class="form-control" type="password" name="password" placeholder="Password" required>
-              <div class="invalid-feedback">Password cannot be empty</div>
+              <input class="form-control" id="passwordInput" type="password" name="passwordInput" placeholder="Password" required>
+              <div class="errorMessage" name="passwordError" id="passwordError"></div>
             </div>           
               
             <div class="d-grid">
-              <button type="submit" class="btn btn-success border-0">CLAIM YOUR FREE TRIAL</button>
+              <button type="submit" value="submit" class="btn btn-success border-0">CLAIM YOUR FREE TRIAL</button>
             </div>
 
             <small class="form-text text-muted">By clicking the button, you are agreeing to our 
@@ -86,7 +86,7 @@
 
   </div>
 
-  <script src="./js/validation.js"></script>
+  <script src="./js/validation copy.js"></script>
 
 
    <!-- <form class="row align-items-center requires-validation" id="claimForm" novalidate>
