@@ -6,7 +6,9 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./css/styles.css"/>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
  
   
   <title>Base Apparel Coming Soon Page</title>
@@ -18,10 +20,22 @@
   <div class="container container-fluid">
     <div class="row">
       <div class="col">
-        We're coming soon
 
-        Hello fellow shoppers! We're currently building our new fashion store. 
+        <img src="./images/logo.svg" style="width: 100px;
+        height: 20.886px;
+        flex-shrink: 0;" alt="logo" id="logo"/>
+
+        <div class="jumbotron vertical-center jumbotron-fluid">
+          <img src="./images/hero-mobile.jpg"/>
+        </div>
+
+        <h1 id="head1">WE'RE </h1>
+        <h1 id="head2">COMING</h1>
+        <h1 id="head3">SOON</h1>
+
+        <p>Hello fellow shoppers! We're currently building our new fashion store. 
         Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
 
 
         <form class="form-inline" novalidate onsubmit="return validateEmail()">
@@ -38,8 +52,8 @@
       </div>
 
 
-      <div class="col">
-        <img src="./images/hero-desktop.jpg"/>
+      <div class="col" id="heroImage">
+        
       </div>
     </div>
   </div>

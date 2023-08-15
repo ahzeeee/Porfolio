@@ -9,4 +9,5 @@ function validateEmail () {
         emailError.innerHTML = 'Please provide a valid email';
         return false;
     }
+    return true;
 }
