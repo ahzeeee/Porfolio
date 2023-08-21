@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+body{
+    font-family: Libre Franklin;;
+}
+.container {
+    position:relative;
+}
+
+#logo {
+    text-align: center;
+    margin-top:10%;
+    margin-bottom:8%;
+}
+
+#text {
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+h1 {
+    color: #969696;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px; /* 145.455% */
+    margin-bottom: 3%;
+}
+
+#soon {
+    color: #15202A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+small {
+    color: #15202A;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#emailSubmission {
+    text-align:center;
+    justify-content: center;
+}
+
+#emailAddress {
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.btn-primary .btn-primary:active {
+    border-radius: 28px;
+    background: #4C7BF3;
+    box-shadow: 0px 5px 10px 2px rgba(76, 123, 243, 0.23);
+    margin-top:3%;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    line-height: 16px; /* 133.333% */
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size:80%;
+}
+
+.btn-primary:hover {
+    background: #4C7BF3;
+    opacity: 0.8;
+    color: #FFF;
+}
+
+
+#emailAddress {
+    border-radius: 28px;
+    border: 1px solid #C2D3FF;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.00);
+    height: 40px;
+}
+
+
+.errorMessage {
+    color: #FF5466;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    letter-spacing: 0.15px;
+    text-align: left;
+}
+
+#illustration {
+    margin-top: 10%;
+    justify-content: center;
+}
+
+.btn-social-icon {
+    color: #4C7BF3;
+    border-color:rgba(76, 123, 243, 0.15);;
+    border-radius: 50%;
+    stroke-width: 0.918px;
+    stroke: rgba(76, 123, 243, 0.15);
+    margin-right: 12.49px;
+    margin-top: 72px;
+}
+
+.btn-social-icon:hover {
+    background: #4C7BF3;
+    color: #FFF;
+}
+
+footer {
+    text-align: center;
+}
+
+.text-muted {
+    color: #969696;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+    margin-top: 25px;
+}
+
+@media only screen and (min-device-width: 768px){
+
+
+    h1 {
+        font-size: 48px;
+        margin-bottom: 5%;
+    }
+    
+    #soon {
+        font-size: 48px;
+    }
+
+    small {
+        font-size: 20px;
+    }
+
+ 
+
+    #emailAddress {
+        padding-top: 6%;
+        padding-bottom: 6%;
+        margin-top: 2%;
+        
+    }
+
+    .btn-primary {
+        border-radius: 28px;
+        background: #4C7BF3;
+        box-shadow: 0px 5px 10px 2px rgba(76, 123, 243, 0.23);
+        color: #FFF;
+        text-align: center;
+        font-weight: 600;
+        line-height: 16px; /* 133.333% */
+        padding-top: 8%;
+        padding-bottom: 8%;
+        font-size:80%;
+    }
+
+
+}
