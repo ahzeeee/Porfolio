@@ -101,6 +101,10 @@ small {
     height: 40px;
 }
 
+.invalid-input{
+    border: 1px solid var(--Light_Red) !important;
+    background-color: #FFF;
+}
 
 .errorMessage {
     color: #FF5466;
