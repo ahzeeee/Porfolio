@@ -54,7 +54,7 @@ small {
     padding-bottom: 8%;
 }
 
-.btn-primary .btn-primary:active {
+.btn-primary  {
     border-radius: 28px;
     background: #4C7BF3;
     box-shadow: 0px 5px 10px 2px rgba(76, 123, 243, 0.23);
@@ -69,9 +69,27 @@ small {
 }
 
 .btn-primary:hover {
-    background: #4C7BF3;
     opacity: 0.8;
+    border-radius: 28px;
+    background: #4C7BF3;
+    box-shadow: 0px 5px 10px 2px rgba(76, 123, 243, 0.23);
+    margin-top:3%;
     color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    font-size:80%;
+}
+
+.btn-primary:active {
+    border-radius: 28px;
+    background: #4C7BF3;
+    box-shadow: 0px 5px 10px 2px rgba(76, 123, 243, 0.23);
+    margin-top:3%;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    line-height: 16px; /* 133.333% */
+    font-size:80%;
 }
 
 
