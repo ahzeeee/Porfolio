@@ -1,52 +1,54 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  
+  font-family: Kumbh Sans;
+  background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+  background-repeat: no-repeat;
+}
+
+Card {
+  position:absolute;
+  margin-top:50; 
+  translate:middle;
+}
+
+CardImg {
+  width: 237px;
+  height: 180px;
 }
 
 h1 {
+  color: #1E1F36;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   text-align: center;
-  margin: 2rem 0 4rem 0;
 }
 
-.accordion {
-  max-width: 600px;
-  margin: 2rem auto;
-}
-
-.accordion-title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  cursor: pointer;
+.accordion-button {
+  color: #1E1F36;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   
 }
 
-.accordion-title:hover {
+.accordion-button:hover {
   color: #F47B56;
 }
 
-.accordion-title,
-.accordion-content {
-  padding: 1rem;
+.accordion-body {
+  color: #787887;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
 }
 
-.accordion-content {
-  background-color: #39b9d2;
-}
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 700px) {
   body {
     font-size: 18px;
   }
 
-  .accordion {
-    width: 90%;
-  }
+
 }
